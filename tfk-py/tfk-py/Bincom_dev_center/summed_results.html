@@ -1,0 +1,38 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Summed Election Results</title>
+    </head>
+    <body>
+        <h1>Select Local Government</h1>
+        <form method="post" action="/results">
+            <label for="local_govt">Local Government:</label>
+            <select name="local_govt" id="local_govt">
+                <option value='Local Govt 1'>Local Govt 1</option><option value='Local Govt 2'>Local Govt 2</option>
+            </select>
+            <button type="submit">Show Results</button>
+        </form>
+        
+        <h2>Summed Election Results for Local Govt 1</h2>
+        <table border="1">
+            <tr>
+                <th>Party</th>
+                <th>Total Votes</th>
+            </tr>
+            <tr>
+                <td>Party A</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Party B</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>Party C</td>
+                <td>55</td>
+            </tr>
+        </table>
+    </body>
+    </html>
+    
