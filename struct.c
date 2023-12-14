@@ -13,10 +13,14 @@ int main()
 	fgets(person1.name, sizeof(person1.name), stdin);
 
 	printf("Enter age: ");
-	scanf("%d\n", &person1.age);
+	scanf("%d", &person1.age);
+
+	printf("Enter Salary: ");
+	scanf("%lf", &person1.salary);
 
 	printf("Name: %s\n", person1.name);
 	printf("Age: %d\n", person1.age);
+	printf("Salary: %lf", person1.salary);
 
 	return (0);
 }

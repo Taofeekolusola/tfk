@@ -1,6 +1,12 @@
-num = [1, 2, 3, 4, 0, -1, 10,]
-
-for i in num:
-    if i < 0:
+av = 5
+shoes = int(input("How many shoes do you want?"))
+i = 1
+while i <= shoes:
+    if av < i:
+        print("currently out of stock")
+        print("please order a lesser number")
         break
-    print(i)
+
+    print("shoe no ", i)
+    i+=1
+print("Bye")

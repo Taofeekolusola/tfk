@@ -12,6 +12,11 @@ int main()
 	printf("%d\n", data[0]);
 
 	printf("%d\n", *(data + 2));
+	printf("%d\n", data [3]);
+
+	printf("%d\n", *(data + 0));
+
+	printf("%d\n", data[2]);
 
 	return (0);
 }	

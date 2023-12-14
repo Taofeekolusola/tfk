@@ -10,7 +10,7 @@ int main()
 	{
 		printf("for employee %d\n", i + 1);
 		printf("Enter age: ");
-		scanf("%d", &(person + i)->age);
+		scanf("%d", &person[i].age);
 
 		printf("Enter salary: ");
 		scanf("%lf", &(person + i)->salary);

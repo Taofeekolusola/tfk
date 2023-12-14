@@ -3,7 +3,6 @@
 #include "struct.h"
 int main()
 {
-
 	struct node
 {
 	int salary;
@@ -36,9 +35,10 @@ nodeD->salary = 500000;
 nodeD->next = nodeE;
 
 nodeE->salary = 600000;
-nodeE->next = NULL;
+nodeE->next = nodeF;
 
 nodeF->salary = 700000;
+nodeF->next = NULL;
 
 head = nodeAA;
 temp = head;

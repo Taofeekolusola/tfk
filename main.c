@@ -1,8 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "struct.h"
+#include "main.h"
 
-	head = nodeAA;
+int main()
+{
+	void (*p)(char *);
 
-	insert_begin(&head, 500000);
+	p = &printHello;
+
+	(*p)("ibragaza");
+	 return (0);
+}
 
